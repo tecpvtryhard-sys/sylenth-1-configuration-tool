@@ -1,0 +1,16 @@
+# Default behavior
+# Configuration for git attributes
+# Normalize line endings
+vendor/* linguist-vendored
+*.json linguist-detectable=false
+*.ico binary
+*.woff binary
+*.css linguist-detectable
+
+*.svg text
+docs/index.html linguist-vendored
+*.min.js linguist-generated
+themes/**/*.css linguist-detectable
+*.md linguist-documentation
+
+# eof 15a11237
